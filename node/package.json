@@ -1,0 +1,15 @@
+{
+"name": "roblox-users-proxy",
+"version": "1.0.0",
+"description": "Small proxy for Roblox Users API",
+"main": "index.js",
+"scripts": {
+"start": "node index.js"
+},
+"dependencies": {
+"express": "^4.18.2",
+"node-fetch": "^2.6.7",
+"helmet": "^6.0.1",
+"express-rate-limit": "^6.7.0"
+}
+}
